@@ -90,6 +90,7 @@ let data = ({
       address: "乌鲁木齐大西桥"
     }
   ],
+  
   // 新增门店接口
   shop: [{
     id: 1,
@@ -103,6 +104,44 @@ let data = ({
     permissionId: 1,
     del: 0
   }],
+  repo: [
+    {
+      id: 1,
+      reponame: '新乐阳光仓库',
+      del: 0
+    },
+    {
+      id: 2,
+      reponame: '李小贤仓库',
+      del: 0
+    },
+    {
+      id: 3,
+      reponame: '武渝东仓库',
+      del: 0
+    },
+    {
+      id: 4,
+      reponame: '张亚如仓库',
+      del: 0
+    },
+    {
+      id: 5,
+      reponame: '牛桂荣仓库',
+      del: 0
+    },
+    {
+      id: 6,
+      reponame: '加敏仓库',
+      del: 0
+    },
+    {
+      id: 7,
+      reponame: '罗凤霞仓库',
+      del: 0
+    },
+  ],
+  
   // 培训资料接口
   // 培训图文接口
   trainingImg: [{
@@ -204,8 +243,10 @@ let data = ({
       del: 0
     }
   ],
+  
   // 数据同步接口
-  dataSync: [{
+  dataSync: [
+    {
       id: 1,
       title: '结束拜访',
       text: '武渝东爱上了你擦科技处卡',
@@ -294,6 +335,7 @@ let data = ({
     sale: '77%',
     count: 266
   }],
+
   // 公告通过title 接口
   announce: [{
       id: 1,
@@ -339,7 +381,8 @@ let data = ({
     }
   ],
   // 公告信息text 接口
-  message: [{
+  message: [
+    {
       id: 1,
       pid: 1,
       title: '<h1>代表团全体成员</h1>',
@@ -678,6 +721,6 @@ let data = ({
     img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
   },
 ]
-
+  // #endregion
 })
 module.exports = data;
