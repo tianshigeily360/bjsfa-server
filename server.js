@@ -3,11 +3,13 @@ const server = jsonServer.create();
 const teacherJson = require('./teacher.json');
 const studenJson = require('./student.json');
 const permissionData = require('./permission');
+const bjData = require('./bjsfa');
 const captcha = require('svg-captcha');
 
 let materialArr = require('./materialArr');
 const router2 = jsonServer.router({...materialArr, ...studenJson});
 const router3 = jsonServer.router(permissionData);
+const router4 = jsonServer.router(bjData);
 const router = jsonServer.router({...materialArr, ...teacherJson});
 const userArr = require('./user');
 const routerUser = jsonServer.router({user:userArr});
@@ -60,9 +62,10 @@ server.use('/api/user', (req, res, next) => {
 
 // 用户登录成功
 server.post('/api/userlogin', (req, res) => {
-  let userName = req.body.username;
+  let comnum = req.body.comnum;
+  let usernum = req.body.usernum;
   let password = req.body.password;
-  let loginUser = userArr.find((item) => item.username == userName && item.password == password);
+  let loginUser = userArr.find((item) => item.comnum == comnum && item.usernum == usernum && item.password == password);
   if(loginUser) {
     res.jsonp({
       user: loginUser,
@@ -132,7 +135,8 @@ server.use('/per/getUserPer/:id', (req, res) => {
   res.json(result);
 });
 server.use('/per', router3);
+server.use('/bj', router4);
 
-server.listen(8888, () => {
+server.listen(7777, () => {
   console.log('JSON Server is running');
 });
