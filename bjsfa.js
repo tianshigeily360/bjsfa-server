@@ -1,21 +1,27 @@
 const Mock = 'mockjs';
 let data = ({
-  // 进店拜访接口
+  // 店铺接口
   visitIn: [{
       id: 1,
       pid: 231093,
       name: '文悦超市',
+      area: '44m',
+      ditch: '平山阳光仓库',
+      type: '混合型',
       bossName: '武老板',
       subon: '2019-05-08 16:54:26',
       phone: 17835816757,
       distance: '500m',
-      del: 0,
-      address: "乌鲁木齐大西桥"
+      address: "乌鲁木齐大西桥",
+      del: 0
     },
     {
       id: 2,
       pid: 231093,
       name: '世纪超市',
+      area: '44m',
+      ditch: '平山阳光仓库',
+      type: '混合型',
       bossName: '牛老板',
       subon: '2019-05-08 16:54:26',
       phone: 17835816757,
@@ -27,6 +33,9 @@ let data = ({
       id: 3,
       pid: 231093,
       name: '北冰洋超市',
+      area: '44m',
+      ditch: '平山阳光仓库',
+      type: '混合型',
       bossName: '加老板',
       subon: '2019-05-08 16:54:26',
       phone: 17835816757,
@@ -38,6 +47,9 @@ let data = ({
       id: 4,
       pid: 231093,
       name: '幸福超市',
+      area: '44m',
+      ditch: '平山阳光仓库',
+      type: '混合型',
       bossName: '张老板',
       subon: '2019-05-08 16:54:26',
       phone: 17835816757,
@@ -49,6 +61,9 @@ let data = ({
       id: 5,
       pid: 231093,
       name: '时间超市',
+      area: '44m',
+      ditch: '平山阳光仓库',
+      type: '混合型',
       bossName: '罗老板',
       subon: '2019-05-08 16:54:26',
       phone: 17835816757,
@@ -60,6 +75,9 @@ let data = ({
       id: 6,
       pid: 231093,
       name: '姥爷超市',
+      area: '44m',
+      ditch: '平山阳光仓库',
+      type: '混合型',
       bossName: '李老板',
       subon: '2019-05-08 16:54:26',
       phone: 17835816757,
@@ -71,6 +89,9 @@ let data = ({
       id: 7,
       pid: 231093,
       name: '文悦超市',
+      area: '44m',
+      ditch: '平山阳光仓库',
+      type: '混合型',
       bossName: '武老板',
       subon: '2019-05-08 16:54:26',
       phone: 17835816757,
@@ -82,6 +103,9 @@ let data = ({
       id: 8,
       pid: 231093,
       name: '文悦超市',
+      area: '44m',
+      ditch: '平山阳光仓库',
+      type: '混合型',
       bossName: '武老板',
       subon: '2019-05-08 16:54:26',
       phone: 17835816757,
@@ -91,19 +115,8 @@ let data = ({
     }
   ],
   
-  // 新增门店接口
-  shop: [{
-    id: 1,
-    name: '',
-    area: '',
-    ditch: '',
-    type: '',
-    address: '',
-    person: '',
-    phone: '',
-    permissionId: 1,
-    del: 0
-  }],
+
+  // 仓库接口
   repo: [
     {
       id: 1,
@@ -200,7 +213,8 @@ let data = ({
     },
   ],
   // 培训问答接口
-  answer: [{
+  answer: [
+    {
       id: 1,
       question: '武渝东帅吗？',
       trueAnswer: '帅',
@@ -445,56 +459,56 @@ let data = ({
       shopId: 1,
       month: 23343,
       year: 47575,
-      percent: '34%'
+      percent: '34'
     },
     {
       id: 2,
       shopId: 3,
       month: 43875,
       year: 95858,
-      percent: '54%'
+      percent: '54'
     },
     {
       id: 3,
       shopId: 2,
       month: 57635,
       year: 23445,
-      percent: '56%'
+      percent: '56'
     },
     {
       id: 4,
       shopId: 6,
       month: 34342,
       year: 32434,
-      percent: '36%'
+      percent: '36'
     },
     {
       id: 5,
       shopId: 5,
       month: 34324,
       year: 32423,
-      percent: '76%'
+      percent: '76'
     },
     {
       id: 6,
       shopId: 8,
       month: 23424,
       year: 43244,
-      percent: '47%'
+      percent: '47'
     },
     {
       id: 7,
       shopId: 7,
       month: 43244,
       year: 56755,
-      percent: '47%'
+      percent: '47'
     },
     {
       id: 8,
       shopId: 4,
       month: 2344,
       year: 23423,
-      percent: '28%'
+      percent: '28'
     },
   ],
   //下单页头部菜单接口

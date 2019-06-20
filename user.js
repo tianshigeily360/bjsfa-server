@@ -6,7 +6,7 @@ module.exports =  [{
   password: 'aicoder.com',
   del: false,
   active: true, //  激活
-  avatar: 'http://192.168.1.130:8888/server/img/a1.png',
+  avatar: 'http://192.168.0.119:8848/server/img/a1.png',
   name: "张三",
   school: '清华大学',
   mail: Random.email(),
@@ -18,7 +18,7 @@ module.exports =  [{
   password: 'aicoder.com',
   del: false,
   active: true, //  激活
-  avatar: 'http://192.168.1.130:8888/server/img/a1.png',
+  avatar: 'http://192.168.0.119:8848/server/img/a1.png',
   name: "李思",
   school: '清华大学',
   mail: Random.email(),
@@ -30,7 +30,7 @@ module.exports =  [{
   password: 'aicoder.com',
   del: false,
   active: true, //  激活
-  avatar: 'http://192.168.1.130:8888/server/img/a1.png',
+  avatar: 'http://192.168.0.119:8848/server/img/a1.png',
   name: "李思",
   school: '清华大学',
   mail: Random.email(),
@@ -42,7 +42,7 @@ module.exports =  [{
   password: 'aicoder.com',
   del: false,
   active: true, //  激活
-  avatar: 'http://192.168.1.130:8888/server/img/a1.png',
+  avatar: 'http://192.168.0.119:8848/server/img/a1.png',
   name: "李思",
   school: '清华大学',
   mail: Random.email(),
