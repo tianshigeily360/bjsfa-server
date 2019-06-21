@@ -115,7 +115,6 @@ let data = ({
     }
   ],
   
-
   // 仓库接口
   repo: [
     {
@@ -157,7 +156,8 @@ let data = ({
   
   // 培训资料接口
   // 培训图文接口
-  trainingImg: [{
+  trainingImg: [
+    {
       id: 1,
       title: '七度空间纯棉超薄哦',
       text: '武渝东三年奋达科技示范户我i据贺卡市场是连接符号打开几十年',
@@ -258,6 +258,37 @@ let data = ({
     }
   ],
   
+  // 订单状态首页
+  orderIndex: [
+    {
+      id: 1,
+      orderName: '下单成功',
+      imgUrl: '/server/img/xdcg.png',
+      url: '/',
+      del:0
+    },
+    {
+      id: 2,
+      orderName: '处理中',
+      imgUrl: '/server/img/clz.png',
+      url: '/',
+      del:0
+    },
+    {
+      id: 3,
+      orderName: '待审核',
+      imgUrl: '/server/img/dsh.png',
+      url: '/',
+      del:0
+    },
+    {
+      id: 4,
+      orderName: '无效订单',
+      imgUrl: '/server/img/wxdd.png',
+      url: '/',
+      del:0
+    },
+  ],
   // 数据同步接口
   dataSync: [
     {
@@ -289,56 +320,56 @@ let data = ({
   menuList: [{
       id: 1,
       menuName: '公司通告',
-      imgUrl: 'http://192.168.0.126:7777/server/img/gstg.png',
+      imgUrl: '/server/img/gstg.png',
       url: '/notice',
       del: 0
     },
     {
       id: 2,
       menuName: '进店拜访',
-      imgUrl: 'http://192.168.0.126:7777/server/img/jdbf.png',
+      imgUrl: '/server/img/jdbf.png',
       url: '/visitshop',
       del: 0
     },
     {
       id: 3,
       menuName: '电话订单',
-      imgUrl: 'http://192.168.0.126:7777/server/img/dhdd.png',
+      imgUrl: '/server/img/dhdd.png',
       url: '/phoneorder',
       del: 0
     },
     {
       id: 4,
       menuName: '培训资料',
-      imgUrl: 'http://192.168.0.126:7777/server/img/pxzl.png',
+      imgUrl: '/server/img/pxzl.png',
       url: '/training',
       del: 0
     },
     {
       id: 5,
       menuName: '数据同步',
-      imgUrl: 'http://192.168.0.126:7777/server/img/sjtb.png',
+      imgUrl: '/server/img/sjtb.png',
       url: '/asyncdata',
       del: 0
     },
     {
       id: 6,
       menuName: '新增门店',
-      imgUrl: 'http://192.168.0.126:7777/server/img/xzmd.png',
+      imgUrl: '/server/img/xzmd.png',
       url: '/addedshop',
       del: 0
     },
     {
       id: 7,
       menuName: '消息中心',
-      imgUrl: 'http://192.168.0.126:7777/server/img/xxzx.png',
+      imgUrl: '/server/img/xxzx.png',
       url: '/message',
       del: 0
     },
     {
       id: 8,
       menuName: '订单状态',
-      imgUrl: 'http://192.168.0.126:7777/server/img/ddzt.png',
+      imgUrl: '/server/img/ddzt.png',
       url: '/orders',
       del: 0
     }
@@ -454,7 +485,8 @@ let data = ({
 
   // #region 店内活动接口
   // 入口
-  activity: [{
+  activity: [
+    {
       id: 1,
       shopId: 1,
       month: 23343,
@@ -539,7 +571,7 @@ let data = ({
     menuId: 1,
     title: '巧克力威化饼',
     serial: 34577,
-    monery: 78.00,
+    monery: '78.00',
     number: 12,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
@@ -549,7 +581,7 @@ let data = ({
     menuId: 1,
     title: '巧克力威化饼',
     serial: 34577,
-    monery: 78.00,
+    monery: '78.00',
     number: 12,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
@@ -559,7 +591,7 @@ let data = ({
     menuId: 1,
     title: '巧克力威化饼',
     serial: 34577,
-    monery: 78.00,
+    monery: '78.00',
     number: 12,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
@@ -569,7 +601,7 @@ let data = ({
     menuId: 1,
     title: '巧克力威化饼',
     serial: 34577,
-    monery: 78.00,
+    monery: '78.00',
     number: 12,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
@@ -579,7 +611,7 @@ let data = ({
     menuId: 1,
     title: '巧克力威化饼',
     serial: 34577,
-    monery: 78.00,
+    monery: '78.00',
     number: 12,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
@@ -589,7 +621,7 @@ let data = ({
     menuId: 1,
     title: '巧克力威化饼',
     serial: 34577,
-    monery: 78.00,
+    monery: '78.00',
     number: 12,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
@@ -599,7 +631,7 @@ let data = ({
     menuId: 1,
     title: '巧克力威化饼',
     serial: 34577,
-    monery: 78.00,
+    monery: '78.00',
     number: 12,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
@@ -609,7 +641,7 @@ let data = ({
     menuId: 1,
     title: '巧克力威化饼',
     serial: 34577,
-    monery: 78.00,
+    monery: '78.00',
     number: 12,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
@@ -619,7 +651,7 @@ let data = ({
     menuId: 1,
     title: '巧克力威化饼',
     serial: 34577,
-    monery: 78.00,
+    monery: '78.00',
     number: 12,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
@@ -629,7 +661,7 @@ let data = ({
     menuId: 1,
     title: '巧克力威化饼',
     serial: 34577,
-    monery: 78.00,
+    monery: '78.00',
     number: 12,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
@@ -639,7 +671,7 @@ let data = ({
     menuId: 3,
     title: '曲奇饼',
     serial: 34577,
-    monery: 28.00,
+    monery: '28.00',
     number: 22,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
@@ -649,7 +681,7 @@ let data = ({
     menuId: 3,
     title: '曲奇饼',
     serial: 34577,
-    monery: 28.00,
+    monery: '28.00',
     number: 22,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
@@ -659,7 +691,7 @@ let data = ({
     menuId: 3,
     title: '曲奇饼',
     serial: 34577,
-    monery: 28.00,
+    monery: '28.00',
     number: 22,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
@@ -669,7 +701,7 @@ let data = ({
     menuId: 3,
     title: '曲奇饼',
     serial: 34577,
-    monery: 28.00,
+    monery: '28.00',
     number: 22,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
@@ -679,7 +711,7 @@ let data = ({
     menuId: 3,
     title: '曲奇饼',
     serial: 34577,
-    monery: 28.00,
+    monery: '28.00',
     number: 22,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
@@ -689,7 +721,7 @@ let data = ({
     menuId: 3,
     title: '曲奇饼',
     serial: 34577,
-    monery: 28.00,
+    monery: '28.00',
     number: 22,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
@@ -699,7 +731,7 @@ let data = ({
     menuId: 3,
     title: '曲奇饼',
     serial: 34577,
-    monery: 28.00,
+    monery: '28.00',
     number: 22,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
@@ -709,7 +741,7 @@ let data = ({
     menuId: 3,
     title: '曲奇饼',
     serial: 34577,
-    monery: 28.00,
+    monery: '28.00',
     number: 22,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
@@ -719,7 +751,7 @@ let data = ({
     menuId: 3,
     title: '曲奇饼',
     serial: 34577,
-    monery: 28.00,
+    monery: '28.00',
     number: 22,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
@@ -729,7 +761,107 @@ let data = ({
     menuId: 3,
     title: '曲奇饼',
     serial: 34577,
-    monery: 28.00,
+    monery: '28.00',
+    number: 22,
+    repertory: 1200,
+    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+  },
+  {
+    id:21,
+    menuId: 5,
+    title: '曲奇饼',
+    serial: 34577,
+    monery: '28.00',
+    number: 22,
+    repertory: 1200,
+    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+  },
+  {
+    id:22,
+    menuId: 5,
+    title: '曲奇饼',
+    serial: 34577,
+    monery: '28.00',
+    number: 22,
+    repertory: 1200,
+    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+  },
+  {
+    id:23,
+    menuId: 5,
+    title: '曲奇饼',
+    serial: 34577,
+    monery: '28.00',
+    number: 22,
+    repertory: 1200,
+    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+  },
+  {
+    id:24,
+    menuId: 5,
+    title: '曲奇饼',
+    serial: 34577,
+    monery: '28.00',
+    number: 22,
+    repertory: 1200,
+    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+  },
+  {
+    id:25,
+    menuId: 5,
+    title: '曲奇饼',
+    serial: 34577,
+    monery: '28.00',
+    number: 22,
+    repertory: 1200,
+    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+  },
+  {
+    id:26,
+    menuId: 4,
+    title: '巧克力威化饼',
+    serial: 34577,
+    monery: '78.00',
+    number: 22,
+    repertory: 1200,
+    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+  },
+  {
+    id:27,
+    menuId: 4,
+    title: '巧克力威化饼',
+    serial: 34577,
+    monery: '78.00',
+    number: 22,
+    repertory: 1200,
+    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+  },
+  {
+    id:28,
+    menuId: 4,
+    title: '巧克力威化饼',
+    serial: 34577,
+    monery: '78.00',
+    number: 22,
+    repertory: 1200,
+    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+  },
+  {
+    id:29,
+    menuId: 4,
+    title: '巧克力威化饼',
+    serial: 34577,
+    monery: '78.00',
+    number: 22,
+    repertory: 1200,
+    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+  },
+  {
+    id:30,
+    menuId: 4,
+    title: '巧克力威化饼',
+    serial: 34577,
+    monery: '78.00',
     number: 22,
     repertory: 1200,
     img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"

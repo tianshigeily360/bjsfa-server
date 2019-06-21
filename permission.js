@@ -1,7 +1,8 @@
 const Mock = require('mockjs');
 let data = Mock.mock({
   "permission": [],
-  role: [{
+  role: [
+    {
     id: 5,
     pid: 0,
     name: '超级管理员',
