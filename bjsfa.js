@@ -160,7 +160,7 @@ let data = ({
   trainingImg: [{
       id: 1,
       title: '七度空间纯棉超薄哦',
-      text: '武渝东三年奋达科技示范户我i据贺卡市场是连接符号打开几十年',
+      text: '清爽透气、不服帖那个不动夜夜轻松',
       img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2675641121,2895192120&fm=26&gp=0.jpg',
       subon: '2014.12.23 12:24:00',
       time: '12:23',
@@ -171,7 +171,7 @@ let data = ({
     {
       id: 2,
       title: '护舒宝纯棉超薄哦',
-      text: '武渝东三年奋达科技示范户我i据贺卡市场是连接符号打开几十年',
+      text: '清爽透气、不服帖那个不动夜夜轻松',
       img: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3519951658,837889124&fm=26&gp=0.jpg',
       subon: '2014.12.23 12:24:00',
       time: '12:23',
@@ -182,7 +182,7 @@ let data = ({
     {
       id: 3,
       title: '七度空间纯棉超薄哦',
-      text: '武渝东三年奋达科技示范户我i据贺卡市场是连接符号打开几十年',
+      text: '清爽透气、不服帖那个不动夜夜轻松',
       img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2675641121,2895192120&fm=26&gp=0.jpg',
       subon: '2014.12.23 12:24:00',
       time: '12:23',
@@ -193,7 +193,7 @@ let data = ({
     {
       id: 4,
       title: '护舒宝纯棉超薄哦',
-      text: '武渝东三年奋达科技示范户我i据贺卡市场是连接符号打开几十年',
+      text: '清爽透气、不服帖那个不动夜夜轻松',
       img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2675641121,2895192120&fm=26&gp=0.jpg',
       subon: '2014.12.23 12:24:00',
       time: '12:23',
@@ -204,7 +204,7 @@ let data = ({
     {
       id: 5,
       title: '护舒宝纯棉超薄哦',
-      text: '武渝东三年奋达科技示范户我i据贺卡市场是连接符号打开几十年',
+      text: '清爽透气、不服帖那个不动夜夜轻松',
       img: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3519951658,837889124&fm=26&gp=0.jpg',
       subon: '2014.12.23 12:24:00',
       time: '12:23',
@@ -215,7 +215,7 @@ let data = ({
     {
       id: 6,
       title: '护舒宝纯棉超薄哦',
-      text: '武渝东三年奋达科技示范户我i据贺卡市场是连接符号打开几十年',
+      text: '清爽透气、不服帖那个不动夜夜轻松',
       img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2675641121,2895192120&fm=26&gp=0.jpg',
       subon: '2014.12.23 12:24:00',
       time: '12:23',
