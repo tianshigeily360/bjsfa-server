@@ -162,6 +162,8 @@ let data = ({
       title: '七度空间纯棉超薄哦',
       text: '武渝东三年奋达科技示范户我i据贺卡市场是连接符号打开几十年',
       img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2675641121,2895192120&fm=26&gp=0.jpg',
+      subon: '2014.12.23 12:24:00',
+      time: '12:23',
       del: 0,
       monery: "19.50",
       number: "1"
@@ -171,6 +173,8 @@ let data = ({
       title: '护舒宝纯棉超薄哦',
       text: '武渝东三年奋达科技示范户我i据贺卡市场是连接符号打开几十年',
       img: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3519951658,837889124&fm=26&gp=0.jpg',
+      subon: '2014.12.23 12:24:00',
+      time: '12:23',
       del: 0,
       monery: "19.50",
       number: "1"
@@ -180,6 +184,8 @@ let data = ({
       title: '七度空间纯棉超薄哦',
       text: '武渝东三年奋达科技示范户我i据贺卡市场是连接符号打开几十年',
       img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2675641121,2895192120&fm=26&gp=0.jpg',
+      subon: '2014.12.23 12:24:00',
+      time: '12:23',
       del: 0,
       monery: "19.50",
       number: "1"
@@ -189,6 +195,8 @@ let data = ({
       title: '护舒宝纯棉超薄哦',
       text: '武渝东三年奋达科技示范户我i据贺卡市场是连接符号打开几十年',
       img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2675641121,2895192120&fm=26&gp=0.jpg',
+      subon: '2014.12.23 12:24:00',
+      time: '12:23',
       del: 0,
       monery: "19.50",
       number: "1"
@@ -198,6 +206,8 @@ let data = ({
       title: '护舒宝纯棉超薄哦',
       text: '武渝东三年奋达科技示范户我i据贺卡市场是连接符号打开几十年',
       img: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3519951658,837889124&fm=26&gp=0.jpg',
+      subon: '2014.12.23 12:24:00',
+      time: '12:23',
       del: 0,
       monery: "19.50",
       number: "1"
@@ -207,6 +217,8 @@ let data = ({
       title: '护舒宝纯棉超薄哦',
       text: '武渝东三年奋达科技示范户我i据贺卡市场是连接符号打开几十年',
       img: 'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2675641121,2895192120&fm=26&gp=0.jpg',
+      subon: '2014.12.23 12:24:00',
+      time: '12:23',
       del: 0,
       monery: "19.50",
       number: "1"
@@ -454,7 +466,8 @@ let data = ({
 
   // #region 店内活动接口
   // 入口
-  activity: [{
+  activity: [
+    {
       id: 1,
       shopId: 1,
       month: 23343,
@@ -512,7 +525,8 @@ let data = ({
     },
   ],
   //下单页头部菜单接口
-  orderMenu: [{
+  orderMenu: [
+    {
       id: 1,
       menuName: "促销",
     },
