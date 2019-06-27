@@ -114,10 +114,9 @@ let data = ({
       address: "乌鲁木齐大西桥"
     }
   ],
-  
+
   // 仓库接口
-  repo: [
-    {
+  repo: [{
       id: 1,
       reponame: '新乐阳光仓库',
       del: 0
@@ -153,7 +152,7 @@ let data = ({
       del: 0
     },
   ],
-  
+
   // 培训资料接口
   // 培训图文接口
   trainingImg: [
@@ -225,8 +224,7 @@ let data = ({
     },
   ],
   // 培训问答接口
-  answer: [
-    {
+  answer: [{
       id: 1,
       question: '武渝东帅吗？',
       trueAnswer: '帅',
@@ -269,7 +267,7 @@ let data = ({
       del: 0
     }
   ],
-  
+
   // 订单状态首页
   orderIndex: [
     {
@@ -277,33 +275,32 @@ let data = ({
       orderName: '下单成功',
       imgUrl: '/server/img/xdcg.png',
       url: '/',
-      del:0
+      del: 0
     },
     {
       id: 2,
       orderName: '处理中',
       imgUrl: '/server/img/clz.png',
       url: '/',
-      del:0
+      del: 0
     },
     {
       id: 3,
       orderName: '待审核',
       imgUrl: '/server/img/dsh.png',
       url: '/',
-      del:0
+      del: 0
     },
     {
       id: 4,
       orderName: '无效订单',
       imgUrl: '/server/img/wxdd.png',
       url: '/',
-      del:0
+      del: 0
     },
   ],
   // 数据同步接口
-  dataSync: [
-    {
+  dataSync: [{
       id: 1,
       title: '结束拜访',
       text: '武渝东爱上了你擦科技处卡',
@@ -394,7 +391,8 @@ let data = ({
   }],
 
   // 公告通过title 接口
-  announce: [{
+  announce: [
+    {
       id: 1,
       pid: 1,
       title: '销售代表团建通知',
@@ -578,308 +576,317 @@ let data = ({
       menuName: "PSKU-Y",
     },
   ],
-  orderList: [
+  orderList: [{
+        id: 1,
+        menuId: 1,
+        title: '巧克力威化饼',
+        serial: 34577,
+        monery: '78.00',
+        number: 12,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
+      },
+      {
+        id: 2,
+        menuId: 1,
+        title: '巧克力威化饼',
+        serial: 34577,
+        monery: '78.00',
+        number: 12,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
+      },
+      {
+        id: 3,
+        menuId: 1,
+        title: '巧克力威化饼',
+        serial: 34577,
+        monery: '78.00',
+        number: 12,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
+      },
+      {
+        id: 4,
+        menuId: 1,
+        title: '巧克力威化饼',
+        serial: 34577,
+        monery: '78.00',
+        number: 12,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
+      },
+      {
+        id: 5,
+        menuId: 1,
+        title: '巧克力威化饼',
+        serial: 34577,
+        monery: '78.00',
+        number: 12,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
+      },
+      {
+        id: 6,
+        menuId: 1,
+        title: '巧克力威化饼',
+        serial: 34577,
+        monery: '78.00',
+        number: 12,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
+      },
+      {
+        id: 7,
+        menuId: 1,
+        title: '巧克力威化饼',
+        serial: 34577,
+        monery: '78.00',
+        number: 12,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
+      },
+      {
+        id: 8,
+        menuId: 1,
+        title: '巧克力威化饼',
+        serial: 34577,
+        monery: '78.00',
+        number: 12,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
+      },
+      {
+        id: 9,
+        menuId: 1,
+        title: '巧克力威化饼',
+        serial: 34577,
+        monery: '78.00',
+        number: 12,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
+      },
+      {
+        id: 10,
+        menuId: 1,
+        title: '巧克力威化饼',
+        serial: 34577,
+        monery: '78.00',
+        number: 12,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
+      },
+      {
+        id: 11,
+        menuId: 3,
+        title: '曲奇饼',
+        serial: 34577,
+        monery: '28.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 12,
+        menuId: 3,
+        title: '曲奇饼',
+        serial: 34577,
+        monery: '28.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 13,
+        menuId: 3,
+        title: '曲奇饼',
+        serial: 34577,
+        monery: '28.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 14,
+        menuId: 3,
+        title: '曲奇饼',
+        serial: 34577,
+        monery: '28.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 15,
+        menuId: 3,
+        title: '曲奇饼',
+        serial: 34577,
+        monery: '28.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 16,
+        menuId: 3,
+        title: '曲奇饼',
+        serial: 34577,
+        monery: '28.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 17,
+        menuId: 3,
+        title: '曲奇饼',
+        serial: 34577,
+        monery: '28.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 18,
+        menuId: 3,
+        title: '曲奇饼',
+        serial: 34577,
+        monery: '28.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 19,
+        menuId: 3,
+        title: '曲奇饼',
+        serial: 34577,
+        monery: '28.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 20,
+        menuId: 3,
+        title: '曲奇饼',
+        serial: 34577,
+        monery: '28.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 21,
+        menuId: 5,
+        title: '曲奇饼',
+        serial: 34577,
+        monery: '28.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 22,
+        menuId: 5,
+        title: '曲奇饼',
+        serial: 34577,
+        monery: '28.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 23,
+        menuId: 5,
+        title: '曲奇饼',
+        serial: 34577,
+        monery: '28.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 24,
+        menuId: 5,
+        title: '曲奇饼',
+        serial: 34577,
+        monery: '28.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 25,
+        menuId: 5,
+        title: '曲奇饼',
+        serial: 34577,
+        monery: '28.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 26,
+        menuId: 4,
+        title: '巧克力威化饼',
+        serial: 34577,
+        monery: '78.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 27,
+        menuId: 4,
+        title: '巧克力威化饼',
+        serial: 34577,
+        monery: '78.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 28,
+        menuId: 4,
+        title: '巧克力威化饼',
+        serial: 34577,
+        monery: '78.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 29,
+        menuId: 4,
+        title: '巧克力威化饼',
+        serial: 34577,
+        monery: '78.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+      {
+        id: 30,
+        menuId: 4,
+        title: '巧克力威化饼',
+        serial: 34577,
+        monery: '78.00',
+        number: 22,
+        repertory: 1200,
+        img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
+      },
+    ],
+  // 提交订单接口
+  commitorder: [
     {
-    id: 1,
-    menuId: 1,
-    title: '巧克力威化饼',
-    serial: 34577,
-    monery: '78.00',
-    number: 12,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
-  },
-    {
-    id: 2,
-    menuId: 1,
-    title: '巧克力威化饼',
-    serial: 34577,
-    monery: '78.00',
-    number: 12,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
-  },
-    {
-    id: 3,
-    menuId: 1,
-    title: '巧克力威化饼',
-    serial: 34577,
-    monery: '78.00',
-    number: 12,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
-  },
-    {
-    id: 4,
-    menuId: 1,
-    title: '巧克力威化饼',
-    serial: 34577,
-    monery: '78.00',
-    number: 12,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
-  },
-    {
-    id: 5,
-    menuId: 1,
-    title: '巧克力威化饼',
-    serial: 34577,
-    monery: '78.00',
-    number: 12,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
-  },
-    {
-    id: 6,
-    menuId: 1,
-    title: '巧克力威化饼',
-    serial: 34577,
-    monery: '78.00',
-    number: 12,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
-  },
-    {
-    id: 7,
-    menuId: 1,
-    title: '巧克力威化饼',
-    serial: 34577,
-    monery: '78.00',
-    number: 12,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
-  },
-    {
-    id: 8,
-    menuId: 1,
-    title: '巧克力威化饼',
-    serial: 34577,
-    monery: '78.00',
-    number: 12,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
-  },
-    {
-    id: 9,
-    menuId: 1,
-    title: '巧克力威化饼',
-    serial: 34577,
-    monery: '78.00',
-    number: 12,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
-  },
-    {
-    id: 10,
-    menuId: 1,
-    title: '巧克力威化饼',
-    serial: 34577,
-    monery: '78.00',
-    number: 12,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=3857246371,3665907822&fm=26&gp=0.jpg"
-  },
-  {
-    id:11,
-    menuId: 3,
-    title: '曲奇饼',
-    serial: 34577,
-    monery: '28.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:12,
-    menuId: 3,
-    title: '曲奇饼',
-    serial: 34577,
-    monery: '28.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:13,
-    menuId: 3,
-    title: '曲奇饼',
-    serial: 34577,
-    monery: '28.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:14,
-    menuId: 3,
-    title: '曲奇饼',
-    serial: 34577,
-    monery: '28.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:15,
-    menuId: 3,
-    title: '曲奇饼',
-    serial: 34577,
-    monery: '28.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:16,
-    menuId: 3,
-    title: '曲奇饼',
-    serial: 34577,
-    monery: '28.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:17,
-    menuId: 3,
-    title: '曲奇饼',
-    serial: 34577,
-    monery: '28.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:18,
-    menuId: 3,
-    title: '曲奇饼',
-    serial: 34577,
-    monery: '28.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:19,
-    menuId: 3,
-    title: '曲奇饼',
-    serial: 34577,
-    monery: '28.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:20,
-    menuId: 3,
-    title: '曲奇饼',
-    serial: 34577,
-    monery: '28.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:21,
-    menuId: 5,
-    title: '曲奇饼',
-    serial: 34577,
-    monery: '28.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:22,
-    menuId: 5,
-    title: '曲奇饼',
-    serial: 34577,
-    monery: '28.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:23,
-    menuId: 5,
-    title: '曲奇饼',
-    serial: 34577,
-    monery: '28.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:24,
-    menuId: 5,
-    title: '曲奇饼',
-    serial: 34577,
-    monery: '28.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:25,
-    menuId: 5,
-    title: '曲奇饼',
-    serial: 34577,
-    monery: '28.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:26,
-    menuId: 4,
-    title: '巧克力威化饼',
-    serial: 34577,
-    monery: '78.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:27,
-    menuId: 4,
-    title: '巧克力威化饼',
-    serial: 34577,
-    monery: '78.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:28,
-    menuId: 4,
-    title: '巧克力威化饼',
-    serial: 34577,
-    monery: '78.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:29,
-    menuId: 4,
-    title: '巧克力威化饼',
-    serial: 34577,
-    monery: '78.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-  {
-    id:30,
-    menuId: 4,
-    title: '巧克力威化饼',
-    serial: 34577,
-    monery: '78.00',
-    number: 22,
-    repertory: 1200,
-    img: "http://img3.imgtn.bdimg.com/it/u=2165682634,1275439937&fm=26&gp=0.jpg"
-  },
-]
+      item: '',
+      num: '',
+      singleTotalPrice: '',
+      totalPrice: '',
+
+  }
+  ]
   // #endregion
 })
 module.exports = data;

@@ -50,8 +50,8 @@ module.exports =  [{
   isTeacher: true
 }, {
   id: 1004,
-  comnum: 123456,
-  usernum: 123456,
+  comnum: '123456',
+  usernum: '123456',
   password: 'aicoder.com',
   del: false,
   active: true, //  激活
